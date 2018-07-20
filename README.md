@@ -27,7 +27,7 @@ ASD->UCF101 dataset can be downloaded [here](http://users.eecs.northwestern.edu/
 
 EAD->HMDB51 dataset can be downloaded [here](http://csee.wvu.edu/~vkkulathumani/wvu-action.html).
 
-BU101->UCF101 dataset can be downloaded [here](http://dipersec.king.ac.uk/MuHAVi-MAS/).
+BU101->UCF101 dataset can be downloaded here. [BU101](http://cs-people.bu.edu/sbargal/BU-action/), [UCF101](http://crcv.ucf.edu/data/UCF101.php)
 
 
 ## Codes
