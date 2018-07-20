@@ -17,7 +17,7 @@ Figure 2: Configuration of the deep neural network for video modality
 
 ![Image](ALgorithm.png)
 
-### Datasets
+## Datasets
 
 ### Stanford40->UCF101 dataset can be downloaded [here](http://4drepository.inrialpes.fr/public/viewgroup/6#sequence37).
 
