@@ -6,9 +6,11 @@ Homepage: [https://sites.google.com/site/yangliuxdu/home]([https://sites.google.
 
 ## Network architecture
 ![Image](Network_image.png)
+
 Figure 1: Configuration of the deep neural network for image modality
 
 ![Image](Network_video.png)
+
 Figure 2: Configuration of the deep neural network for video modality
 
 ## Algorithm
