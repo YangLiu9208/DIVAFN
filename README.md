@@ -7,7 +7,9 @@ Homepage: [https://sites.google.com/site/yangliuxdu/home](https://sites.google.c
 ## Network architecture
 ![Image](Network_image.png)
 
-Figure 1: Configuration of the deep neural network for image modality
+Figure 1: Configuration of the deep neural network for image modality. "f" denotes the number of convolutional filters and
+their receptive field size, "st" denotes the convolutional stride, "pad" denotes the number of pixels to add to each size of the
+input, "LRN" denotes whether Local Response Normalization (LRN) is applied or not, and “pool” denotes the downsampling factor.
 
 ![Image](Network_video.png)
 
