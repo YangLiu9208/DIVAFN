@@ -21,13 +21,13 @@ Figure 2: Configuration of the deep neural network for video modality
 
 ## Datasets
 
-### Stanford40->UCF101 dataset can be downloaded [here](http://4drepository.inrialpes.fr/public/viewgroup/6#sequence37).
+Stanford40->UCF101 dataset can be downloaded [here](http://4drepository.inrialpes.fr/public/viewgroup/6#sequence37).
 
-### ASD->UCF101 dataset can be downloaded [here](http://users.eecs.northwestern.edu/~jwa368/my_data.html).
+ASD->UCF101 dataset can be downloaded [here](http://users.eecs.northwestern.edu/~jwa368/my_data.html).
 
-### EAD->HMDB51 dataset can be downloaded [here](http://csee.wvu.edu/~vkkulathumani/wvu-action.html).
+EAD->HMDB51 dataset can be downloaded [here](http://csee.wvu.edu/~vkkulathumani/wvu-action.html).
 
-### BU101->UCF101 dataset can be downloaded [here](http://dipersec.king.ac.uk/MuHAVi-MAS/).
+BU101->UCF101 dataset can be downloaded [here](http://dipersec.king.ac.uk/MuHAVi-MAS/).
 
 
 ## Codes
