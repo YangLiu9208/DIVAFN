@@ -20,10 +20,6 @@ Figure 2: Configuration of the deep neural network for keyframe modality.
 
 Figure 3: Configuration of the deep neural network for video modality
 
-## Algorithm
-
-![Image](ALgorithm.png)
-
 ## Datasets
 
 ![Image](Datasets.png)
