@@ -53,6 +53,18 @@ BU101->UCF101 dataset can be downloaded here.   [BU101](http://cs-people.bu.edu/
    (2)Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "main_DIVAFN_EAD_HMDB51.m", "main_DIVAFN_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.  
    (3)Run "Classify_train_SAECombinedHashCodes_Stanford40_UCF101.m" to classify the actions in video datasets. Other tasks is executed in the similar way.  
    
-   
+If you use the codes or find the work helpful, please kindly consider to cite our paper by:
+```
+@misc{liu2019deep,
+    title={Deep Image-to-Video Adaptation and Fusion Networks for Action Recognition},
+    author={Yang Liu and Zhaoyang Lu and Jing Li and Tao Yang and Chao Yao},
+    year={2019},
+    eprint={1911.10751},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+``` 
+
+If you have any question about this code, feel free to reach me(liuy856@mail.sysu.edu.cn)  
 
 <a href='https://clustrmaps.com/site/1b049'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=m&d=GnHm4-dMEE6iXqoDt0fhb1JfsnTDg8p0HALKu6yPxDc&co=2d78ad&ct=ffffff'/></a>
