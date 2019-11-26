@@ -28,6 +28,7 @@ Figure 3: Configuration of the deep neural network for video modality
 
 DIVAFN: MatlabR2016b, Matconvnet-1.0-beta25, Windows10   
 C3D feature extraction: Caffe, Ubuntu16.04 LTS
+Word2Vec vectors extraction: python, Ubuntu16.04 LTS
 
 ## Datasets
 
