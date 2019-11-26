@@ -43,10 +43,9 @@ BU101->UCF101 dataset can be downloaded here.   [BU101](http://cs-people.bu.edu/
 
 
 ## Usage
-1. Extract keyframes for rach video dataset. Codes can be downloaded [here]().
-2. Extract [C3D](https://github.com/facebookarchive/C3D) or [IDT]() features for videos.
-3. If you have extracted the IDT features, then you need to caculate the LLC encoding. LLC encoding codes can be downloaded [here]().  
-   If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here]().
+1. Extract keyframes for rach video dataset. Codes can be downloaded [here](https://drive.google.com/open?id=1STpJ3uxoHmIQ1Jf0B9yaGHzMifYiaAwJ).
+2. Extract [C3D](https://github.com/facebookarchive/C3D) or [IDT+LLC encoding](https://drive.google.com/open?id=1YJaQS0InuiysLfXqOZtQVY6hQgQRLIpx) features for videos.
+3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here](https://drive.google.com/open?id=1I7orbMn6KVZGWbErttxnbhw1bvkPh1Af).
 4. Extract the semantic representations (word2vec or attribute) for action classed names for each video datasets. Codes can be downloaded [here](). Run "UCF101_word2vec.py" to caculate the word2vec vectors for UCF101 dataset, run "HMDB51_word2vec.py" to caculate word2vec vectors for HMDB51 datasets. Then run "TXT_to_Mat.m" to compress the txt vectors into MAT format.  
 5. Execute DIVAFN algorithm. Codes can be downloaded [here]().  
    (1)Preprocess. Run "Data_preprocess_Stanford40_UCF101.m", "Data_preprocess_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m" and "Data_preprocess_BU101_UCF101.m" to obtain a MAT file which contains images, keyframes, video features, semantic vectors,  train_test_split information and action class labels for each image-video task.    
