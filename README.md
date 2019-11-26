@@ -27,8 +27,8 @@ Figure 3: Configuration of the deep neural network for video modality
 ## Environment
 
 DIVAFN: MatlabR2016b, Matconvnet-1.0-beta25, Windows10   
-C3D feature extraction: Caffe, Ubuntu16.04 LTS
-Word2Vec vectors extraction: python, Ubuntu16.04 LTS
+C3D feature extraction: Caffe, Ubuntu16.04 LTS   
+Word2Vec vectors extraction: python, Ubuntu16.04 LTS   
 
 ## Datasets
 
@@ -44,6 +44,7 @@ BU101->UCF101 dataset can be downloaded here.   [BU101](http://cs-people.bu.edu/
 
 
 ## Usage
+The codes are uploaded to BaiduYun.   
 1. Extract keyframes for rach video dataset. Codes can be downloaded [here](https://pan.baidu.com/s/1pPpZZgzMxDoUIYSxyehIOA)(Extraction code：l22w).  
 2. Extract [C3D](https://github.com/facebookarchive/C3D) or [IDT+LLC encoding](https://pan.baidu.com/s/1-PBqW1NNvySK4AWNO8vUxw)(Extraction code：mylt) features for videos.   
 3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here](https://pan.baidu.com/s/13pD58obHA_YyCpzyuMNbMQ)(Extraction code：zon1).   
