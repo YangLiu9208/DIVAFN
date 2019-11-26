@@ -42,7 +42,17 @@ EAD->HMDB51 dataset can be downloaded here. [EAD](https://drive.google.com/open?
 BU101->UCF101 dataset can be downloaded here.   [BU101](http://cs-people.bu.edu/sbargal/BU-action/), [UCF101](http://crcv.ucf.edu/data/UCF101.php)
 
 
-## Codes
-Soon will be available.
+## Usage
+1. Extract keyframes for rach video dataset. Codes can be downloaded [here]().
+2. Extract [C3D](https://github.com/facebookarchive/C3D) or [IDT]() features for videos.
+3. If you have extracted the IDT features, then you need to caculate the LLC encoding. LLC encoding codes can be downloaded [here]().  
+   If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here]().
+4. Extract the semantic representations (word2vec or attribute) for action classed names for each video datasets. Codes can be downloaded [here](). Run "UCF101_word2vec.py" to caculate the word2vec vectors for UCF101 dataset, run "HMDB51_word2vec.py" to caculate word2vec vectors for HMDB51 datasets. Then run "TXT_to_Mat.m" to compress the txt vectors into MAT format.  
+5. Execute DIVAFN algorithm. Codes can be downloaded [here]().
+   (1)Preprocess. Run "Data_preprocess_Stanford40_UCF101.m", "Data_preprocess_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m" and "Data_preprocess_BU101_UCF101.m" to obtain a MAT file which contains images,keyframes,video features,semantic vectorsm train_test_split information and action class labels for each image-video task.  
+   (2)Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m", "Data_preprocess_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.  
+   (3)Run "Classify_train_SAECombinedHashCodes_Stanford40_UCF101.m" to classify the actions in video datasets. Other tasks is executed in the similar way.  
+   
+   
 
 <a href='https://clustrmaps.com/site/1b049'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=m&d=GnHm4-dMEE6iXqoDt0fhb1JfsnTDg8p0HALKu6yPxDc&co=2d78ad&ct=ffffff'/></a>
