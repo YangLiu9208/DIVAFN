@@ -24,6 +24,11 @@ Figure 2: Configuration of the deep neural network for keyframe modality.
 
 Figure 3: Configuration of the deep neural network for video modality
 
+## Environment
+
+DIVAFN: MatlabR2016b, Matconvnet-1.0-beta25, Windows10   
+C3D feature extraction: Caffe, Ubuntu16.04 LTS
+
 ## Datasets
 
 ![Image](Datasets.png)
