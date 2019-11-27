@@ -58,9 +58,9 @@ The codes are uploaded to BaiduYun.
   Then run "TXT_to_Mat.m" to compress the vectors from TXT format to MAT format.   
 
 5. Execute DIVAFN algorithm. Codes can be downloaded [here](https://pan.baidu.com/s/1CRZ1NKv9RmRwAOOUIR7qCw)(Extraction code：7263).   
-   (1)Preprocess. Run "Data_preprocess_Stanford40_UCF101.m", "Data_preprocess_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m" and "Data_preprocess_BU101_UCF101.m" to obtain a MAT file which contains images, keyframes, video features, semantic vectors,  train_test_split information and action class labels for each image-video task.    
-   (2)DIVAFN. Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "main_DIVAFN_EAD_HMDB51.m", "main_DIVAFN_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.    
-   (3)Run "Classify_train_SAECombinedHashCodes_Stanford40_UCF101.m" to classify the actions in video datasets. Other tasks is executed in the similar way.    
+   (1) Preprocess. Run "Data_preprocess_Stanford40_UCF101.m", "Data_preprocess_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m" and "Data_preprocess_BU101_UCF101.m" to obtain a MAT file which contains images, keyframes, video features, semantic vectors,  train_test_split information and action class labels for each image-video task.    
+   (2) DIVAFN. Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "main_DIVAFN_EAD_HMDB51.m", "main_DIVAFN_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.    
+   (3) Classification. Run "Classify_train_SAECombinedHashCodes_Stanford40_UCF101.m" to classify the actions in video datasets. Other tasks is executed in the similar way.    
    
 If you use the codes or find the work helpful, please kindly consider to cite our paper by:
 ```
