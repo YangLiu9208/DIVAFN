@@ -44,11 +44,16 @@ BU101->UCF101 dataset can be downloaded here.   [BU101](http://cs-people.bu.edu/
 
 
 ## Usage
-The codes are uploaded to BaiduYun.   
+The codes are uploaded to BaiduYun.  
+
 1. Extract keyframes for each video dataset. Codes can be downloaded [here](https://pan.baidu.com/s/1pPpZZgzMxDoUIYSxyehIOA)(Extraction code：l22w).  
+
 2. Extract [C3D](https://github.com/facebookarchive/C3D) or [IDT+LLC encoding](https://pan.baidu.com/s/1-PBqW1NNvySK4AWNO8vUxw)(Extraction code：mylt) features for videos.   
-3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here](https://pan.baidu.com/s/13pD58obHA_YyCpzyuMNbMQ)(Extraction code：zon1).   
-4. Extract the semantic representations (word2vec or attribute) for action class names for each video dataset. Codes can be downloaded [here](). Run "UCF101_word2vec.py" to caculate the word2vec vectors for UCF101 dataset, run "HMDB51_word2vec.py" to caculate word2vec vectors for HMDB51 datasets. Then run "TXT_to_Mat.m" to compress the txt vectors into MAT format.  
+
+3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here](https://pan.baidu.com/s/13pD58obHA_YyCpzyuMNbMQ)(Extraction code：zon1).  
+
+4. Extract the semantic representations (word2vec or attribute) for action class names for each video dataset. Codes can be downloaded [here](https://pan.baidu.com/s/10gOHn0Z7RAqHZLzJhbK_pg)(Extraction code: wdwa). Run "UCF101_word2vec.py" to caculate the word2vec vectors for UCF101 dataset, run "HMDB51_word2vec.py" to caculate word2vec vectors for HMDB51 datasets. Then run "TXT_to_Mat.m" to compress the txt vectors into MAT format.  
+
 5. Execute DIVAFN algorithm. Codes can be downloaded [here](https://pan.baidu.com/s/1CRZ1NKv9RmRwAOOUIR7qCw)(Extraction code：7263).   
    (1)Preprocess. Run "Data_preprocess_Stanford40_UCF101.m", "Data_preprocess_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m" and "Data_preprocess_BU101_UCF101.m" to obtain a MAT file which contains images, keyframes, video features, semantic vectors,  train_test_split information and action class labels for each image-video task.    
    (2)Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "main_DIVAFN_EAD_HMDB51.m", "main_DIVAFN_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.  
