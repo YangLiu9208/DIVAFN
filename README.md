@@ -46,7 +46,7 @@ BU101->UCF101 dataset can be downloaded here.   [BU101](http://cs-people.bu.edu/
 ## Usage
 The codes are uploaded to BaiduYun.  
 
-1. Extract keyframes for each video dataset. Codes can be downloaded [here](https://pan.baidu.com/s/1pPpZZgzMxDoUIYSxyehIOA)(Extraction code：l22w).  
+1. Extract keyframes for each video dataset. Codes can be downloaded [here](https://pan.baidu.com/s/1pPpZZgzMxDoUIYSxyehIOA)(Extraction code：l22w).
 
 2. Extract [C3D](https://github.com/facebookarchive/C3D) or [IDT+LLC encoding](https://pan.baidu.com/s/1-PBqW1NNvySK4AWNO8vUxw)(Extraction code：mylt) features for videos.   
 
