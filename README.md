@@ -52,20 +52,15 @@ The codes are uploaded to BaiduYun.
 
 3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here](https://pan.baidu.com/s/13pD58obHA_YyCpzyuMNbMQ)(Extraction code：zon1).  
 
-4. Extract the semantic representations (word2vec or attribute) for action class names for each video dataset. Codes can be downloaded [here](https://pan.baidu.com/s/10gOHn0Z7RAqHZLzJhbK_pg)(Extraction code: wdwa). 
-
-Run "UCF101_word2vec.py" to caculate the word2vec vectors for UCF101 dataset.
-
-Run "HMDB51_word2vec.py" to caculate word2vec vectors for HMDB51 dataset.   
-
-Then run "TXT_to_Mat.m" to compress the vectors from TXT format to MAT format.  
+4. Extract the semantic representations (word2vec or attribute) for action class names for each video dataset. Codes can be  downloaded [here](https://pan.baidu.com/s/10gOHn0Z7RAqHZLzJhbK_pg)(Extraction code: wdwa).   
+  Run "UCF101_word2vec.py" to caculate the word2vec vectors for UCF101 dataset.   
+  Run "HMDB51_word2vec.py" to caculate word2vec vectors for HMDB51 dataset.   
+  Then run "TXT_to_Mat.m" to compress the vectors from TXT format to MAT format.   
 
 5. Execute DIVAFN algorithm. Codes can be downloaded [here](https://pan.baidu.com/s/1CRZ1NKv9RmRwAOOUIR7qCw)(Extraction code：7263).   
    (1)Preprocess. Run "Data_preprocess_Stanford40_UCF101.m", "Data_preprocess_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m" and "Data_preprocess_BU101_UCF101.m" to obtain a MAT file which contains images, keyframes, video features, semantic vectors,  train_test_split information and action class labels for each image-video task.    
-   
-   (2)DIVAFN. Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "main_DIVAFN_EAD_HMDB51.m", "main_DIVAFN_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.  
-   
-   (3)Run "Classify_train_SAECombinedHashCodes_Stanford40_UCF101.m" to classify the actions in video datasets. Other tasks is executed in the similar way.  
+   (2)DIVAFN. Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "main_DIVAFN_EAD_HMDB51.m", "main_DIVAFN_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.    
+   (3)Run "Classify_train_SAECombinedHashCodes_Stanford40_UCF101.m" to classify the actions in video datasets. Other tasks is executed in the similar way.    
    
 If you use the codes or find the work helpful, please kindly consider to cite our paper by:
 ```
