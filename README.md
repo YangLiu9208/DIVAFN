@@ -30,6 +30,9 @@ DIVAFN: MatlabR2016b, Matconvnet-1.0-beta25, Windows10
 C3D feature extraction: Caffe, Ubuntu16.04 LTS   
 Word2Vec vectors extraction: python, Ubuntu16.04 LTS   
 
+## Prerequisite
+Install [Matconvnet](http://www.vlfeat.org/matconvnet/), [vlfeat](http://www.vlfeat.org/) and [LibSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/).   
+
 ## Datasets
 
 ![Image](Datasets.png)
