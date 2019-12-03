@@ -47,20 +47,20 @@ BU101->UCF101 dataset can be downloaded here.   [BU101](http://cs-people.bu.edu/
 
 
 ## Usage
-The codes are uploaded to BaiduYun.  
+The codes can be downloaded in BaiduCloud or GoogleCloud.  
 
-1. Extract keyframes for each video dataset. Codes can be downloaded [here](https://pan.baidu.com/s/1pPpZZgzMxDoUIYSxyehIOA)(Extraction code：l22w).
+1. Extract keyframes for each video dataset. Codes can be downloaded [BaiduCloud](https://pan.baidu.com/s/1pPpZZgzMxDoUIYSxyehIOA)(Extraction code：l22w) or [GoogleCloud](https://drive.google.com/open?id=1STpJ3uxoHmIQ1Jf0B9yaGHzMifYiaAwJ).
 
-2. Extract [C3D](https://github.com/facebookarchive/C3D) or [IDT+LLC encoding](https://pan.baidu.com/s/1-PBqW1NNvySK4AWNO8vUxw)(Extraction code：mylt) features for videos.   
+2. Extract [C3D](https://github.com/facebookarchive/C3D) or IDT+LLC encoding ([BaiduCloud (Extraction code：mylt)](https://pan.baidu.com/s/1-PBqW1NNvySK4AWNO8vUxw)) or ([GoogleCloud](https://drive.google.com/open?id=1YJaQS0InuiysLfXqOZtQVY6hQgQRLIpx)) features for videos.   
 
-3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [here](https://pan.baidu.com/s/13pD58obHA_YyCpzyuMNbMQ)(Extraction code：zon1).  
+3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [BaiduCloud (Extraction code：zon1)](https://pan.baidu.com/s/13pD58obHA_YyCpzyuMNbMQ) or [GoogleCloud](https://drive.google.com/open?id=1I7orbMn6KVZGWbErttxnbhw1bvkPh1Af).  
 
-4. Extract the semantic representations (word2vec or attribute) for action class names for each video dataset. Codes can be  downloaded [here](https://pan.baidu.com/s/10gOHn0Z7RAqHZLzJhbK_pg)(Extraction code: wdwa).   
+4. Extract the semantic representations (word2vec or attribute) for action class names for each video dataset. Codes can be  downloaded [BaiduCloud (Extraction code: wdwa)](https://pan.baidu.com/s/10gOHn0Z7RAqHZLzJhbK_pg) or [GoogleCloud](https://drive.google.com/open?id=1gxaxkwayhABWs3v6hF_87nFOXkRg_mSw).   
   Run "UCF101_word2vec.py" to caculate the word2vec vectors for UCF101 dataset.   
   Run "HMDB51_word2vec.py" to caculate word2vec vectors for HMDB51 dataset.   
   Then run "TXT_to_Mat.m" to compress the vectors from TXT format to MAT format.   
 
-5. Execute DIVAFN algorithm. Codes can be downloaded [here](https://pan.baidu.com/s/1CRZ1NKv9RmRwAOOUIR7qCw)(Extraction code：7263).   
+5. Execute DIVAFN algorithm. Codes can be downloaded [BaiduCloud (Extraction code：7263)](https://pan.baidu.com/s/1CRZ1NKv9RmRwAOOUIR7qCw).   
    (1) Preprocess. Run "Data_preprocess_Stanford40_UCF101.m", "Data_preprocess_ASD_UCF101.m", "Data_preprocess_EAD_HMDB51.m" and "Data_preprocess_BU101_UCF101.m" to obtain a MAT file which contains images, keyframes, video features, semantic vectors,  train_test_split information and action class labels for each image-video task.    
    (2) DIVAFN. Run "main_DIVAFN_Stanford40_UCF101.m", "main_DIVAFN_ASD_UCF101.m", "main_DIVAFN_EAD_HMDB51.m", "main_DIVAFN_BU101_UCF101.m" to excute the DIVAFN algorithm for each image-video task.    
    (3) Classification. Run "Classify_train_SAECombinedHashCodes_Stanford40_UCF101.m" to classify the actions in video datasets. Other tasks is executed in the similar way.    
