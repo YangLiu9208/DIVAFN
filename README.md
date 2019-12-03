@@ -1,5 +1,5 @@
 ## Deep Image-to-Video Adaptation and Fusion Networks for Action Recognition  
-(accepted by IEEE Transactions on Image Processing)  
+IEEE Transactions on Image Processing    
 
 <a href="https://orcid.org/0000-0002-9423-9252" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-9423-9252</a>
 
@@ -51,7 +51,7 @@ The codes can be downloaded in BaiduCloud or GoogleCloud.
 
 1. Extract keyframes for each video dataset. Codes can be downloaded [BaiduCloud](https://pan.baidu.com/s/1pPpZZgzMxDoUIYSxyehIOA)(Extraction code：l22w) or [GoogleCloud](https://drive.google.com/open?id=1STpJ3uxoHmIQ1Jf0B9yaGHzMifYiaAwJ).
 
-2. Extract [C3D](https://github.com/facebookarchive/C3D) or IDT+LLC encoding ([BaiduCloud](https://pan.baidu.com/s/1-PBqW1NNvySK4AWNO8vUxw)(Extraction code：mylt)) or ([GoogleCloud](https://drive.google.com/open?id=1YJaQS0InuiysLfXqOZtQVY6hQgQRLIpx)) features for videos.   
+2. Extract [C3D](https://github.com/facebookarchive/C3D) or IDT+LLC encoding [BaiduCloud](https://pan.baidu.com/s/1-PBqW1NNvySK4AWNO8vUxw)(Extraction code：mylt) or [GoogleCloud](https://drive.google.com/open?id=1YJaQS0InuiysLfXqOZtQVY6hQgQRLIpx) features for videos.   
 
 3. If you have extracted the C3D features, then you need to transform the C3D binaries into MAT format. Codes can be downloaded [BaiduCloud](https://pan.baidu.com/s/13pD58obHA_YyCpzyuMNbMQ)(Extraction code：zon1) or [GoogleCloud](https://drive.google.com/open?id=1I7orbMn6KVZGWbErttxnbhw1bvkPh1Af).  
 
