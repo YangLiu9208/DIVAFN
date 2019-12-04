@@ -69,8 +69,8 @@ If you use the codes or find the work helpful, please kindly consider to cite ou
 ```
 @article{liu2019deep,
   title={Deep Image-to-Video Adaptation and Fusion Networks for Action Recognition},
-  author={Yang Liu and Zhaoyang Lu and Jing Li and Tao Yang and Chao Yao}},
-  journal={IEEE Transactions on Image Processing},
+  author={Liu, Yang and Lu, Zhaoyang and Li, Jing and Yang, Tao and Yao, Chao},
+  journal={arXiv preprint arXiv:1911.10751},
   year={2019}
 }
 ``` 
