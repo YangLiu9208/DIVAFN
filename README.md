@@ -67,12 +67,17 @@ The codes can be downloaded in BaiduCloud or GoogleCloud.
    
 If you use the codes or find the work helpful, please kindly consider to cite our paper by:
 ```
-@article{liu2019deep,
-  title={Deep Image-to-Video Adaptation and Fusion Networks for Action Recognition},
-  author={Liu, Yang and Lu, Zhaoyang and Li, Jing and Yang, Tao and Yao, Chao},
-  journal={arXiv preprint arXiv:1911.10751},
-  year={2019}
-}
+@ARTICLE{yliuDIVAFN, 
+author={Y. {Liu} and Z. {Lu} and J. {Li} and T. {Yang} and C. {Yao}}, 
+journal={IEEE Transactions on Image Processing}, 
+title={Deep Image-to-Video Adaptation and Fusion Networks for Action Recognition}, 
+year={2019}, 
+volume={}, 
+number={}, 
+pages={1-1}, 
+doi={10.1109/TIP.2019.2957930}, 
+ISSN={1941-0042}, 
+month={},}
 ``` 
 
 If you have any question about this code, feel free to reach me(liuy856@mail.sysu.edu.cn)  
