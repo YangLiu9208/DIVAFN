@@ -8,21 +8,26 @@ Homepage: [https://yangliu9208.github.io/home/](https://yangliu9208.github.io/ho
 ## Abstract
 Existing deep learning methods for action recognition in videos require a large number of labeled videos for training, which is labor-intensive and time-consuming. For the same action, the knowledge learned from different media types, e.g., videos and images, may be related and complementary. However, due to the domain shifts and heterogeneous feature representations between videos and images, the performance of classifiers trained on images may be dramatically degraded when directly deployed to videos without effective domain adaptation and feature fusion methods. In this paper, we propose a novel method, named Deep Image-to-Video Adaptation and Fusion Networks (DIVAFN), to enhance action recognition in videos by transferring knowledge from images using video keyframes as a bridge. The DIVAFN is a unified deep learning model, which integrates domain-invariant representations learning and cross-modal feature fusion into a unified optimization framework. Specifically, we design an efficient cross-modal similarities metric to reduce the modality shift among images, keyframes and videos. Then, we adopt an autoencoder architecture, whose hidden layer is constrained to be the semantic representations of the action class names. In this way, when the autoencoder is adopted to project the learned features from different domains to the same space, more compact, informative and discriminative representations can be obtained. Finally, the concatenation of the learned semantic feature representations from these three autoencoders are used to train the classifier for action recognition in videos. Comprehensive experiments on four real-world datasets show that our method outperforms some state-of-the-art domain adaptation and action recognition methods.
 
+## Model
+![Image](Fig1.png)
+
+Figure 1: Framework of our proposed DIVAFN. 
+
 ## Network architecture
 ![Image](Network_image.png)
 
-Figure 1: Configuration of the deep neural network for image modality. "f" denotes the number of convolutional filters and
+Figure 2: Configuration of the deep neural network for image modality. "f" denotes the number of convolutional filters and
 their receptive field size, "st" denotes the convolutional stride, "pad" denotes the number of pixels to add to each size of the
 input, "LRN" denotes whether Local Response Normalization (LRN) is applied or not, and “pool” denotes the downsampling factor.
 
 ![Image](Network_image.png)
 
-Figure 2: Configuration of the deep neural network for keyframe modality. 
+Figure 3: Configuration of the deep neural network for keyframe modality. 
 
 
 ![Image](Network_video.png)
 
-Figure 3: Configuration of the deep neural network for video modality
+Figure 4: Configuration of the deep neural network for video modality
 
 ## Environment
 
